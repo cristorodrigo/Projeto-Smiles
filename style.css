@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.caixa_superior {
+    background-image: url("./assets/288957-fernanda-entregar-ate-dia\ 4.png");
+    height: 130vh;
+}
+
+.titulo_cabeçalho {
+    font-weight: 700;
+    font-size: 24px;
+    width: 205px;
+    height: 32px;
+    color: #fff;
+    display: inline;
+    position: absolute;
+    padding-top: 42px;
+}
+
+header {
+    margin-left: 800px;
+}
+
+.link_cabeçalho {
+
+    padding: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    display: inline;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cabeçalho {
+    padding-top: 38px;
+    margin-left: 39px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 58px;
+    width: 509px;
+    height: 80px;
+    color: #fff;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    width: 406px;
+    height: 30px;
+    color: #fff;
+}
+
+.Titulo {
+    position: absolute;
+    margin-top: 373px;
+    margin-left: 62px;
+}
+
+
+form {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s linear;
+    background-color: #fff;
+    border-radius: 10px;
+    float: right;
+    margin-top: 20px;
+    padding: 20px;
+    margin-right: 50px;
+    width: 340px;
+}
+
+.mostrar-formulario {
+    visibility: visible;
+    opacity: 1;
+}
+
+input {
+    display: block;
+    background-color: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+textarea {
+    display: block;
+    background: #F9F9F9;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    width: 300px;
+    height: 120px;
+    padding-left: 10px;
+}
+
+.contato {
+    font-size: 24px;
+    color: #252B42;
+    margin-bottom: 30px;
+    position: relative;
+    margin-left: 50px;
+}
+
+form button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 40px;
+    gap: 10px;
+    width: 300px;
+    height: 52px;
+    background: #40BB15;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+label {
+    font-size: 14px;
+    color: #252B42;
+}
+
+.serviços {
+    font-size: 40px;
+    color: #252B42;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.caixa-central {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 326px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #A9D6FF;
+    text-align: center;
+}
+
+.titulo-card {
+    background-color: #219653;
+    width: 326px;
+    height: 84px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+
+ul {
+    padding: 20px;
+
+}
+
+li {
+    margin-bottom: 5px;
+
+}
+
+.caixa-inferior {
+    background-color: #2A7CC7;
+    padding: 15px;
+}
+
+.sobre {
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.paragrafo-inferior {
+    font-size: 18px;
+    color: #fff;
+    padding: 0px 50px 50px 50px;
+}
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    border: none;
+    background:none;
+    cursor: pointer;
+  }
+ 

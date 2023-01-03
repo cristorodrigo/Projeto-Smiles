@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <div class="caixa_superior">
+        <div class="cabeçalho">
+
+            <h2 class="titulo_cabeçalho">Smiles</h2>
+            <header>
+                <a class="link_cabeçalho" href="">Home</a>
+                <a class="link_cabeçalho" href="#sobre"> Quem somos</a>
+                <a class="link_cabeçalho" href="#serviços">Serviços</a>
+                <a class="link_cabeçalho" onclick="chameOFormulario()">Contato</a>
+            </header>
+        </div>
+
+        <div class="Titulo">
+            <h1>Clinica Smiles</h1>
+            <h3>Seu sorriso como você nunca viu antes!</h3>
+        </div>
+
+
+        <form id="formulario-contato" action="https://formsubmit.co/cristorodrigo@gmail.com" target="_blank"
+            method="POST">
+            <h3 class="contato">Entre em Contato</h3>
+            <label>
+                Nome
+                <input type="text" name="Nome" placeholder="Digite seu nome" required>
+            </label>
+            <label>
+                E-mail
+                <input type="email" name="email" placeholder="Digite seu e-mail" required>
+            </label>
+            <label>
+                WhatsApp
+                <input type="tel" name="telefone" placeholder="Digite seu telefone" required>
+            </label>
+            <label>
+                Fale conosco
+                <textarea name="Info" placeholder="Qual sua dúvida?"></textarea>
+            </label>
+            <button type="submit">Enviar</button>
+
+        </form>
+
+    </div>
+    <div></div>
+    <div id="serviços">
+        <h2 class="serviços">NOSSOS SERVIÇOS</h2>
+    </div>
+    <div class="caixa-central">
+
+        <div class="card">
+            <h3 class="titulo-card">Tratamento odontológico</h3>
+            <ul>
+                <li> Cirurgia e Traumatologia Buco-Maxilo-Faciais</li>
+                <li>Dentística</li>
+                <li>Disfunção Temporomandibular e Dor Orofacial</li>
+                <li>Endodontia</li>
+                <li>Estomatologia</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3 class="titulo-card">Estético</h3>
+            <ul>
+                <li>Radiologia Odontológica e Imaginologia</li>
+                <li>Implantodontia</li>
+                <li>Odontologia Legal</li>
+                <li>Odontologia do Trabalho</li>
+                <li>Odontologia para Pacientes com Necessidades Especiais</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3 class="titulo-card">Cuidados
+
+            </h3>
+            <ul>
+                <li>Odontogeriatria</li>
+                <li>Odontopediatria</li>
+                <li> Ortodontia</li>
+                <li>Ortopedia Funcional dos Maxilares</li>
+                <li> Prótese Buco-Maxilo-Facial</li>
+            </ul>
+        </div>
+    </div>
+    <div>
+
+
+
+
+        <div class="caixa-inferior" id="sobre">
+            <h2 class="sobre">Sobre Nós</h2>
+
+            <p class="paragrafo-inferior">
+                Somos um consultório moderno, versátil e dinâmico, cujo objetivo é levar soluções criativas e eficazes
+                aos
+                clientes, tendo como sócios o Dr. Kleber Bissolatti e a Dra. Monique Antonacci, profissionais
+                multidisciplinares
+                com sólida formação e vasta experiência em questões de grande complexidade.
+
+                Sorrir com vontade. Sorrir com paixão. Sorrir com liberdade. A qualquer momento. Sem receio, sem
+                constrangimento, sem medo de ser feliz.
+
+                Nós acreditamos que o brilho que faz o mundo girar está no sorriso de cada um. E, para expandir esse
+                poder
+                transformador, oferecemos em nossas unidades uma enorme variedade de soluções odontológicas.
+
+                Mais do que proporcionar um atendimento qualificado com produtos certificados, temos como objetivo a
+                segurança e o conforto em todas as etapas de nossos serviços. Além disso, nossos profissionais são
+                referências em suas áreas de atuação e atestam os pilares da marca Smiles.
+
+            </p>
+            <button id="back-to-top">Voltar ao topo</button>
+        </div>
+
+        <script>
+
+            let formulario = document.getElementById("formulario-contato")
+
+            function chameOFormulario() {
+                formulario.className = "mostrar-formulario"
+            }
+            var btn = document.querySelector("#back-to-top");
+            btn.addEventListener("click", function () {
+                window.scrollTo(0, 0);
+            });
+
+
+
+
+
+        </script>
+
+</body>
+
+
+
+</html>
